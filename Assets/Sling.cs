@@ -69,4 +69,12 @@ public class Sling : MonoBehaviour
         figure.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         yield break;
     }
+
+    public void RotateRight() {
+        figure.transform.Rotate(0, 0, 90);
+    }
+
+    public void RotateLeft() {
+        figure.transform.Rotate(0, 0, -90);
+    }
 }

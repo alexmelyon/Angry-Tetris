@@ -45,6 +45,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Figure.cs" />
+     <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Sling.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/workspace/Angry Tetris/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
